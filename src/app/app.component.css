@@ -1,0 +1,8 @@
+.pixel{
+    display: inline-block;
+    border: solid;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    outline: 2px dotted black;
+}

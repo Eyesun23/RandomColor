@@ -1,0 +1,7 @@
+<h1>
+  {{title}}
+</h1>
+<div class="pixel"
+     *ngFor = "let color of imageArray"
+     [ngStyle]="{'background-color': color, 'display': 'inline-block' }">
+</div>
